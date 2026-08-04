@@ -1,0 +1,179 @@
+/*Remove margins from body & changes the whole font-family*/
+body, html {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+* {
+    font-family: "Nova Square", sans-serif;
+}
+
+/*Remove margin so no random space in the middle of the section*/
+h1, h2, h3, p {
+    margin: 0;
+}
+
+/*Design and position the header to be fixed*/
+.fixedHeader {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7cf96;
+}
+.fixedHeader h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-left: 20px;
+}
+.fixedHeader ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-right: 20px;
+}
+.fixedHeader a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+li a:hover {
+    padding: 10px;
+    color: #60241E;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*Section One Background Design And Element Positions*/
+.sectionOne {
+    height: 70vh;
+    background-color: #241611;
+    display: flex;
+    justify-content: center;
+}
+
+/*Section One Elements And Images*/
+.sectionOneImage {
+    color: white;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+/*Section One Paragraph*/
+.sectionOneParagraph {
+    font-size: 25px;
+    width: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#commonChoices {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+/*Adding margin, so the buttons won't stick too close to the text*/
+.sectionOneParagraph h2, .sectionOneParagraph p {
+    margin-bottom: 30px;
+}
+
+/*Section One Buttons*/
+.sectionOneButtons {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+}
+.sectionOneButtons a {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.sectionOneButtons a:hover {
+    background-color: #f7cf96;
+    color: #241611;
+}
+
+/*Section Two Background Desgins And Element Positions*/
+.sectionTwo {
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(30,20,15,0.14);
+}
+
+/*Coffee & Tea Cards*/
+.cardContainer {
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+    text-align: center;
+}
+
+/*Card's Buttons*/
+.cardBtn {
+    padding: 10px 50px;
+    font-size: 15px;
+}
+.cardBtn:hover {
+    background-color: lightgrey;
+}
+.cardBtn:active {
+    background-color: transparent;
+}
+
+/*Section Three Background Designs and Element Positions*/
+.sectionThree {
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(30,20,15,0.14);
+}   
+
+.sectionThree .card, .sectionFour .card {
+    width: 300px;
+    height: 600px;
+    text-align: justify;
+}
+.sectionThree .cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionThree .cardContainer p , .sectionFour .cardContainer p{
+    margin-bottom: 20px;
+}
+.sectionThree img , .sectionFour img{
+    width: 100%;
+    height: 260px;      /* pick whatever height fits your design */
+    object-fit: contain; /* or "cover" if you want them cropped to fill the box */
+    object-position: bottom; /* keeps the drinks sitting on the same "ground line" */
+}
+.shortInfoCardContent button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Section Four Background Designs and Element Positions*/
+.sectionFour {
+    height: 90vh;
+    background-color: rgba(30,20,15,0.14);
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee & Tea</title>
+    <linK rel="stylesheet" href="styles.css"> 
+    <link rel="icon" href="/images/tea.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="firstSection">
+
+    <!-- Fixed Header -->
+    <header class="fixedHeader">
+        <h2><a href="#">Coffee & Tea</a></h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#coffee">Coffee</a></li>
+                <li><a href="#tea">Tea</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section One -->
+    <section class="sectionOne">
+        <div class="sectionOneImage">
+            <img src="images/latte.png" width="200px">
+            <p style="margin-left: 50px;">Coffee Latte</p>
+        </div>
+
+        <div class="sectionOneParagraph">
+            <h2>Coffee & Tea</h2>
+            <p>A coffee latte or simple just latte, it offers a creamy, mild flavor profile where the richness of the espresso is balanced by the natural sweetness of warm milk.</p>
+        <div class="sectionOneButtons">
+        <a href="coffee.html">Coffee</a>
+        <a href="tea.html">Tea</a>
+        </div>
+        </div>
+    </section>
+
+    <!-- Section Two -->
+    <section class="sectionTwo">
+        <h2 id="commonChoices">Top 3 Common Choices From The Customers</h2>
+        <div class="cardContainer">
+
+            <!-- Coffee Latte Card -->
+            <div class="card">
+                <img src="/images/latte.png" style="width: 150px;">
+                <div class="cardContent">
+                    <h2>Coffee Latte</h2>
+                    <hr>
+                    <p>Tired? Take a break and sip on a rich, silky café latte.</p>
+                    <button class="cardBtn" ">Learn More</button>
+                </div>
+            </div>
+
+               <!-- Coffee Americano Card -->
+                        <div class="card">
+                <img src="/images/americano.png" style="width: 290px;">
+                <div class="cardContent">
+                    <h2>Coffee Americano</h2>
+                    <hr>
+                    <p>Feeling down? One sip of a bold Americano is all it takes to reboot your focus.</p>
+                    <button class="cardBtn" onclick="location.href=''">Learn More</button>
+                </div>
+            </div>
+
+                 
+                   <!-- Tea Card -->
+                        <div class="card">
+                <img src="/images/tea.png" style="width: 242px;">
+                <div class="cardContent">
+                    <h2>Coffee Latte</h2>
+                    <hr>
+                    <p>Feeling drained? Unwind and recharge with a warm, robust cup of black tea.</p>
+                    <button class="cardBtn" onclick="location.href=''">Learn More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Three -->
+    <section class="sectionThree" id="coffee">
+
+        <h2 style="text-align: center;">Short Descriptions About Coffee</h2>
+        <hr>
+
+        <!-- Making Cards Info about the drinks -->
+        <div class="cardContainer">
+
+        <div class="card">
+            <img src="images/iced-black-sesame-latte.png">
+            <div class="shortInfoCardContent">
+                <h2>Latte</h2>
+                <p>A latte blends bold espresso with rich steamed milk, topped with a delicate layer of silky microfoam.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+
+                <div class="card">
+            <img src="images/iced-americano.png">
+            <div class="shortInfoCardContent">
+                <h2>Americano</h2>
+                <p>An Americano combines bold espresso with hot water, creating a smooth, rich coffee similar in strength to drip brew.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+
+                <div class="card">
+            <img src="images/iced-capuccino.png">
+            <div class="shortInfoCardContent">
+                <h2>Capuccino</h2>
+                <p>A cappuccino features equal parts bold espresso, warm steamed milk, and a thick, airy layer of foam.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+
+      </div>
+    </section>
+    </div>
+
+    <section class="sectionFour" id="tea">
+        <h2 style="text-align: center;">Short Descriptions About Coffee</h2>
+        <hr>
+       <div class="cardContainer">
+
+                <div class="card">
+            <img src="images/oolong-tea.png">
+            <div class="shortInfoCardContent">
+                <h2>Oolong Tea</h2>
+                <p>Oolong tea is a partially oxidized tea, balancing green tea's fresh notes with the rich depth of black tea.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+
+                <div class="card">
+            <img src="images/black-tea.png">
+            <div class="shortInfoCardContent">
+                <h2>Black Tea</h2>
+                <p>Black tea is a fully oxidized tea, robust flavor with dark reddish-amber hues and high caffeine.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+
+      </div>
+    </section>
+</body>
+</html>
