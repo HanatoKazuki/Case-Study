@@ -108,7 +108,11 @@ li a:hover {
 .sectionTwo {
     width: 100%;
     height: 95vh;
-    background-color: rgba(30,20,15,0.14);
+    background: linear-gradient(#322626, #78AE99);
+}
+
+.sectionTwo {
+    color: white;
 }
 
 /*Coffee & Tea Cards*/
@@ -134,10 +138,10 @@ li a:hover {
     padding: 10px 50px;
     font-size: 15px;
 }
-.cardBtn:hover {
+button:hover {
     background-color: lightgrey;
 }
-.cardBtn:active {
+button:active {
     background-color: transparent;
 }
 
@@ -145,7 +149,7 @@ li a:hover {
 .sectionThree {
     width: 100%;
     height: 95vh;
-    background-color: rgba(30,20,15,0.14);
+    background: linear-gradient(#78AE99, #d8d7b7);
 }   
 
 .sectionThree .card, .sectionFour .card {
@@ -175,5 +179,5 @@ li a:hover {
 /*Section Four Background Designs and Element Positions*/
 .sectionFour {
     height: 90vh;
-    background-color: rgba(30,20,15,0.14);
+    background: linear-gradient(#d8d7b7,#82ca94);
 }
