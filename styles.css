@@ -184,7 +184,7 @@ button:active {
 
 /*Section Five Background Desgins and Element Positions*/
 .sectionFive {
-    height: 90vh;
+    height: 100vh;
     background:linear-gradient(#82ca94, #FFFDD0);
 }
 .sectionFiveParagraph {
@@ -194,20 +194,92 @@ button:active {
     justify-self: center;
     color: white;
 }
+
 .aboutCoffeeContainer {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    margin-top: 50px;
+    gap: 300px;
 }
-.aboutTeaContainer {
+
+.aboutCoffeeContent {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    background: linear-gradient(#FEFCD6, #FEFEF1);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.aboutTeaContainer {
+    display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
+    gap: 300px;
 }
+
+.aboutTeaContent {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    background: linear-gradient(#FEFCD6, #FEFEF1);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
 .contact {
- height: 90vh;
+ height: 100vh;
  background: linear-gradient(#FFFDD0, white);
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contactContent {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+.btn {
+    font-size: 1.5rem;
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+input {
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 50%;
 }
