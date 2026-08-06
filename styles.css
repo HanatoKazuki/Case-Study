@@ -256,7 +256,6 @@ button:active {
     padding: 20px;
     border-radius: 10px;
     border: 1px solid black;
-    font-size: 30px;
 }
 .contactContainer {
     display: flex;
@@ -270,7 +269,7 @@ button:active {
 
 .contactContent {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 50px;
 }
 .btn {
